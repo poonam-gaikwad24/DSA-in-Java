@@ -46,6 +46,17 @@ public class BeautifulArr {
     public static void main(String[] args){
 
     getBeautifulArr(5);
+
+
+/*
+
+"The time complexity is O(N). Although the while loop runs about log N times, the size of the array doubles in each iteration (1, 2, 4, ..., N). 
+So the total work is 1 + 2 + 4 + ... + N, which is O(N).
+The space complexity is also O(N) because we store up to N elements in the arrays/lists (ans, temp, and result)."
+
+
+
+        */
     }
     
 }
